@@ -12,7 +12,9 @@ function App() {
 			<Header/>
 			<div className={c.main}>
 				<Routes>
-					<Route path={'/form'} element={<MyForm/>}/>
+					<Route path={'/'} element={<MyForm/>}>
+						<Route path={'form'} element={<MyForm/>}/>
+					</Route>
 					<Route path={'/history'} element={<History/>}/>
 				</Routes>
 			</div>

@@ -1,0 +1,67 @@
+.posts {
+    display: flex;
+    flex-direction: column;
+}
+.main__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 1.1rem;
+}
+.form__item {
+    margin-bottom: 0.625rem;
+    width: 40vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.form__item:last-child {
+    margin-bottom: 0;
+}
+.form__item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.put {
+    background: transparent;
+    border-bottom: 1px solid black;
+    font-size: 1.2rem;
+}
+.form__button {
+    padding: 5px;
+    margin: auto;
+    width: 6rem;
+    background: black;
+    color: white;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.form__button:hover {
+    color: yellow;
+}
+.delete_btn {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-bottom: 3vh;
+    width: 10rem;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+}
+.delete_btn:hover {
+    color: yellow;
+}

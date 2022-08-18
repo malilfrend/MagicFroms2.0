@@ -2,7 +2,7 @@ import * as Yup from "yup";
 
 const loginFormSchema = Yup.object().shape({
 	name: Yup.string()
-		.max(15, 'Must be less than 15 symbols')
+		.max(15, 'Oh, You have such a big name')
 		.required('Required'),
 	lastname: Yup.string()
 		.max(20, 'Must be less than 20 symbols')
